@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">TP2</string>
+    <string name="app_name">TP : MEMORY GAME</string>
+    <string name="game_name">MEMORY GAME</string>
+    <string name="welcome_message">BIENVENUE SUR MEMORY GAME, ENTREZ VOTRE NOM POUR JOUER !</string>
+    <string name="nom_joueur">NOM DU JOUEUR</string>
+    <string name="jouer">JOUER</string>
+    <string name="joueur">JOUEUR</string>
+    <string name="menu_partie_3x2">PARTIE 3x2 (NORMALE)</string>
+    <string name="menu_partie_6x6">PARTIE 6x6 (DIFFICILE)</string>
+    <string name="timer_60_seconds">TEMPS RESTANT: 60 secondes</string>
+    <string name="level_normal">NORMAL</string>
+    <string name="level_hardcore">HARDCORE</string>
+    <string name="loose">PERDU</string>
+    <string name="win">GAGNE</string>
+    <string name="retour_menu">RETOURNER AU MENU</string>
+    <string name="changer_joueur">CHANGER DE JOUEUR</string>
+    <string name="difficulte">Difficulté</string>
+    <string name="choix_partie">VEUILLEZ CHOISIR VOTRE DIFFICULTE</string>
+    <string name="na">N/A</string>
 </resources>

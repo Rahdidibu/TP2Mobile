@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <EditText
+        android:id="@+id/MENU_TEXT_USERNAME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@null"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:foregroundGravity="right"
+        android:gravity="right|center_vertical"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:paddingEnd="10sp"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:ignore="LabelFor,MissingConstraints,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingTop="50dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="50dp"
+        tools:context=".MenuActivity">
+
+        <ImageView
+            android:id="@+id/SCORE_IMAGE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/logo2"
+            android:contentDescription="@string/na" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/choix_partie"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/MENU_2x3_BUTTON"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/alert_dark_frame"
+            android:text="@string/menu_partie_3x2"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/MENU_6x6_BUTTON"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/alert_dark_frame"
+            android:text="@string/menu_partie_6x6"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/MENU_CHANGER_JOUEUR_BUTTON"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/alert_dark_frame"
+            android:text="@string/changer_joueur"
+            android:textColor="#ffffff"
+            android:layout_marginTop="200dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

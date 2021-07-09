@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/GAME_TEXT_TIMER"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="11dp"
+        android:background="@null"
+        android:ems="10"
+        android:focusable="false"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/timer_60_seconds"
+        android:textSize="18sp"
+        android:layout_margin="26dp"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/GAME_TEXT_USERNAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35sp"
+        android:background="@null"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:foregroundGravity="right"
+        android:gravity="right|center_vertical"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:paddingRight="10sp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:ignore="LabelFor,RelativeOverlap,RtlHardcoded,RtlSymmetry" />
+
+    <GridLayout
+        android:id="@+id/GAME_GRID_LAYOUT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center|fill_horizontal"
+        android:layout_marginTop="94dp"
+        android:columnCount="6"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:rowCount="6">
+
+    </GridLayout>
+
+</RelativeLayout>
